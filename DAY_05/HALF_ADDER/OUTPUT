@@ -1,0 +1,9 @@
+# KERNEL: time=0,x=x,y=x,k=x,l=x
+
+# KERNEL: time=5,x=0,y=0,k=0,l=0
+
+# KERNEL: time=10,x=0,y=1,k=1,l=0
+
+# KERNEL: time=15,x=1,y=0,k=1,l=0
+
+# KERNEL: time=20,x=1,y=1,k=0,l=1
