@@ -54,15 +54,11 @@ module shift();
       x= a>>1;
       y=b<<2;
       z=c>>>1;
-      w=c<<<1;
-      
-     
+      w=c<<<1;  
     end
   initial
     $monitor("x=%b,y=%b,z=%b,w=%b,r=%0b",x,y,z,w,r);
 endmodule
-
-
 
 
 x=0010,y=1100,z=0100,w=0010,r=11111111111111111111111111110111
@@ -81,9 +77,7 @@ module reduction();
       out[2]=^a;
       out [3]= ^~a;
       out[4]=~&a;
-      out[5]= ~|a;
-      
-      
+      out[5]= ~|a;    
     end
   initial
     begin
@@ -91,7 +85,9 @@ module reduction();
     end
 endmodule
  
- out=11010 
+                           out=11010 
+
+
 
 //RELATIONAL _OPERATORS:
 // Code your testbench here
@@ -132,7 +128,7 @@ endmodule
 
 
 
- x=101001,y=10011001
+           x=101001,y=10011001
 
 // EQUALITY OPERATORS:*/
 
