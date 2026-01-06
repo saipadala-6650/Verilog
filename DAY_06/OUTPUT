@@ -1,0 +1,5 @@
+# KERNEL: T=0,a=x,  b=x, s=x, c=x
+# KERNEL: T=5,a=0,  b=0, s=0, c=0
+# KERNEL: T=10,a=0, b=1, s=1, c=0
+# KERNEL: T=15,a=1, b=0, s=1, c=0
+# KERNEL: T=20,a=1, b=1, s=0, c=1
