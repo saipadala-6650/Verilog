@@ -1,0 +1,9 @@
+# KERNEL: a=x,b=x,c=x,out=xxxxxxxx
+# KERNEL: a=0,b=0,c=0,out=00000001
+# KERNEL: a=0,b=0,c=1,out=00010000
+# KERNEL: a=0,b=1,c=0,out=00000010
+# KERNEL: a=0,b=1,c=1,out=00100000
+# KERNEL: a=1,b=0,c=0,out=00000100
+# KERNEL: a=1,b=0,c=1,out=01000000
+# KERNEL: a=1,b=1,c=0,out=00001000
+# KERNEL: a=1,b=1,c=1,out=10000000
