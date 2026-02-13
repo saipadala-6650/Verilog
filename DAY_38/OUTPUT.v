@@ -1,0 +1,13 @@
+# KERNEL:                    0 clk=x rst=x T=x Q=x
+# KERNEL:                   10 clk=1 rst=1 T=0 Q=0
+# KERNEL:                   15 clk=0 rst=1 T=0 Q=0
+# KERNEL:                   20 clk=0 rst=0 T=1 Q=0
+# KERNEL:                   25 clk=1 rst=0 T=1 Q=1
+# KERNEL:                   30 clk=0 rst=0 T=0 Q=1
+# KERNEL:                   35 clk=1 rst=0 T=0 Q=1
+# KERNEL:                   40 clk=0 rst=0 T=1 Q=1
+# KERNEL:                   45 clk=1 rst=0 T=1 Q=0
+# KERNEL:                   50 clk=0 rst=1 T=0 Q=0
+# KERNEL:                   55 clk=1 rst=1 T=0 Q=0
+# KERNEL:                   60 clk=0 rst=1 T=0 Q=0
+# KERNEL:                   65 clk=1 rst=1 T=0 Q=0
