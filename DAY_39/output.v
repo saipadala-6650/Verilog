@@ -1,0 +1,12 @@
+# KERNEL: Time=0 | clk=0 | J=0 K=0 | Q=x
+# KERNEL: Time=5 | clk=1 | J=0 K=0 | Q=x
+# KERNEL: Time=10 | clk=0 | J=0 K=1 | Q=x
+# KERNEL: Time=15 | clk=1 | J=0 K=1 | Q=0
+# KERNEL: Time=20 | clk=0 | J=1 K=0 | Q=0
+# KERNEL: Time=25 | clk=1 | J=1 K=0 | Q=1
+# KERNEL: Time=30 | clk=0 | J=1 K=1 | Q=1
+# KERNEL: Time=35 | clk=1 | J=1 K=1 | Q=0
+# KERNEL: Time=40 | clk=0 | J=1 K=1 | Q=0
+# KERNEL: Time=45 | clk=1 | J=1 K=1 | Q=1
+# KERNEL: Time=50 | clk=0 | J=0 K=0 | Q=1
+# KERNEL: Time=55 | clk=1 | J=0 K=0 | Q=1
