@@ -1,0 +1,45 @@
+module mod10(clk,rst,t,q);
+  input clk,rst,t;
+  output reg [3:0]q;
+  
+   wire mod_rst;
+
+  
+  assign mod_rst = q[3] & q[1];
+
+  wire final_rst=rst|mod_rst;
+  always@(posedge clk,posedge final_rst)
+    begin
+      if(final_rst)
+        q<=4'b0000;
+      else
+        q[0]<=~q[0];
+    end
+  always@(negedge q[0],posedge final_rst)
+    begin
+       
+      if(final_rst)
+        q<=4'b0000;
+      else
+        q[1]<=~q[1];
+      
+    end
+  always@(negedge q[1],posedge final_rst)
+    begin
+      if(final_rst)
+        q<=4'b0000;
+      else
+        q[2]<=~q[2];
+      
+    end
+  always@(negedge q[2],posedge final_rst)
+    begin
+      if(final_rst)
+        q<=4'b0000;
+      else
+        q[3]<=~q[3];
+      
+    end
+  
+  
+endmodule
