@@ -1,0 +1,10 @@
+# KERNEL:                   10 clk=1 rst=1  out=xxxx 
+# KERNEL:                   20 clk=1 rst=0  out=1111 
+# KERNEL:                   30 clk=1 rst=0  out=1110 
+# KERNEL:                   40 clk=1 rst=0  out=1100 
+# KERNEL:                   50 clk=1 rst=0  out=1000 
+# KERNEL:                   60 clk=1 rst=0  out=0000 
+# KERNEL:                   70 clk=1 rst=0  out=0001 
+# KERNEL:                   80 clk=1 rst=0  out=0011 
+# KERNEL:                   90 clk=1 rst=0  out=0111 
+# KERNEL:                  100 clk=1 rst=0  out=1111
